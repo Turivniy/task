@@ -12,7 +12,7 @@ from time import gmtime, strftime
 WORD_TO_FIND = 'Error'
 DIRECTORY_WITH_LOGS = '/tmp/tmp/'
 MAIL_ADDRESS = 'turivniy@gmail.com'
-MAIL_PASSWORD = 'asr5znW0tq!1jmQ50b^'
+MAIL_PASSWORD = ''
 
 
 def generate_log_filename():
