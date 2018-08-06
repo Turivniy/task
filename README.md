@@ -21,5 +21,5 @@ Run script every Monday-Friday at 17:00
 ```
 $ crontab -e
 
-0 17 * * 1,2,3,4,5  ./<patch to script>/run_script.sh
+0 17 * * 1,2,3,4,5  /usr/bin/python3 /<patch to script>/script.py
 ```
