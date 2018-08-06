@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 import datetime as dt
 import logging
 import os
@@ -11,8 +9,8 @@ from time import gmtime, strftime
 
 WORD_TO_FIND = 'Error'
 DIRECTORY_WITH_LOGS = '/tmp/tmp/'
-MAIL_ADDRESS = 'turivniy@gmail.com'
-MAIL_PASSWORD = ''
+MAIL_ADDRESS = 'YOUR EMAIL HERE'
+MAIL_PASSWORD = 'YOUR EMAIL PASSWORD HERE'
 
 
 def generate_log_filename():
